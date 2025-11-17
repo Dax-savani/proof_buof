@@ -11,7 +11,7 @@ app.use(express.json());
 
 const port = process.env.PORT || 9000;
 
-// Initialize DB poollllll
+// Initialize DB poolllll
 const pool = createPool();
 
 // Health/status endpoint
